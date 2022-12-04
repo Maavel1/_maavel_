@@ -34,6 +34,13 @@ body,html {
 
 }
 
+@media (max-width:440px) {
+    .mem img {
+        left: -200%;
+    }
+
+}
+
 @media (max-width:375px) {
     .mem img {
         left: -221%;
