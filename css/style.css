@@ -349,3 +349,10 @@ a {
     color: rgb(159 117 242);
 
 }
+
+@media (max-width:700px) {
+    .footer  {
+       height: 100px;
+       padding-top: 20px;
+    }
+}
