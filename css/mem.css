@@ -18,3 +18,25 @@ body,html {
     width: 1451px;
     height: 1844px;
 }
+
+@media (max-width:550px) {
+    .mem img {
+        left: -154%;
+    }
+
+}
+
+
+@media (max-width:480px) {
+    .mem img {
+        left: -189%;
+    }
+
+}
+
+@media (max-width:375px) {
+    .mem img {
+        left: -221%;
+    }
+
+}
