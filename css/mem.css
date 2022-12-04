@@ -1,0 +1,20 @@
+
+body,html {
+    padding: 0;
+    margin: 0;
+}
+
+
+.mem{
+    position: relative;
+    text-align: center;
+}
+
+
+.mem img {
+    position: absolute;
+    left: -18%;
+    right: 10%;
+    width: 1451px;
+    height: 1844px;
+}
