@@ -6,7 +6,7 @@ body {
     line-height: 1.3;
     margin: 0;
     padding: 0;
-    height: 10000px;
+    height: 100%;
 }
 
 ::-webkit-scrollbar{ width: 5px;}
@@ -53,12 +53,14 @@ a {
 }
 
 .header {
+    z-index: 10;
     position: sticky;
     top: 0;
     left: 0;
     width: 100%;
     display: block;
-    background-color: hsl(228deg 10% 10%);
+    background-color: hsl(228deg 10% 13%);
+    box-shadow: black 0px -9px 23px 23px;
     padding-block: 24px;
     z-index: 4;
     transition: 0.4s all ease;
@@ -182,7 +184,7 @@ a {
 }
 
 .main-name-title {
-    font-size: 92px;
+    font-size: 6rem;
     font-weight: 800;
     text-shadow: 2px 2px 0 black;
     text-transform: uppercase;
@@ -294,6 +296,7 @@ a {
 
 .service-block-card {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -408,6 +411,7 @@ a {
 }
 
 .skils-email {
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
     color: hsl(229deg 10% 57%);
@@ -471,7 +475,7 @@ a {
 /* PORTFOLIO */ 
 
 .portfolia-pre-title {
-    font-family:'Syne', sans-serif;;
+    font-family:'Syne', sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
     color: hsl(229deg 10% 57%);
@@ -484,5 +488,183 @@ a {
     color: white;
     font-weight: 700;
     margin: 0;
+}
+
+.portfolia-block {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin-top: 80px;
+}
+
+.portfilio-img{
+    z-index: 2;
+    max-width: 611px;
+}
+
+.portfilio-img:hover{
+    filter: grayscale(80%);
+    transition: all 0.4s ease;
+    transform:scale(0.95);
+    max-width: 611px;
+    box-shadow: rgb(0 0 0) 21px 18px 43px 31px;
+}
+
+.some{
+  position: relative;
+  z-index: 19;
+  display: flex;
+  justify-content: space-between;
+  background :rgb(0, 0, 0);
+  width:611px;
+  height:500px;
+}
+
+.some:hover{ 
+  z-index: 2;
+  background :rgba(0,0,0,.4); opacity:.4;
+}
+
+.portfolio-title {
+    position: absolute;
+    z-index: 20;
+    display: none;
+    top: 50%;
+    left: 38%;
+    color: white;
+}
+
+.some:hover p{
+    display: block;
+}
+
+.verh {
+    position: relative;
+}
+
+.verh:hover p{
+    transition: all 0.4s ease;
+    display: block;
+}
+
+
+/* RIEWS */ 
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.section-reviews {
+    padding: 250px 0 200px 0;
+}
+
+.accordion {
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    height: 65px;
+    border-radius: 10px;
+    background-color: #363636;
+    margin-top: 30px;
+}
+
+.accordion p {
+    margin-top: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 21px;
+    color: white;
+}
+
+.accordion:hover{
+    transition: all 0.4s ease;
+   background-color: #1a1a1a;
+}
+
+.content p {
+    font-size: 20px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0 5px 0;
+    padding: 10px 3px 11px 10px;
+    background-color: #ffffff;
+    color: black;
+}
+
+/* footer */ 
+
+.footer {
+    padding-block: 76px;
+    background-color: hsl(231deg 10% 14%);
+}
+
+.block_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-footer {
+    font-weight: 800;
+    color: white;
+}
+
+.email-footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: hsl(229deg 10% 57%);
+}
+
+.icon-footer-inst {
+    fill: white;
+}
+
+.social-link {
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    border: 2px solid hsla(0, 0%, 100%, 0.1);
+    border-radius: 50%;
+    color: white;
+    transition: 0.25s ease; 
+}
+
+.social-link:hover {
+   border-color: white;
+}
+
+
+/* media */
+
+@media (max-width:1165px) {
+    .header-logo {
+        padding-left: 10px;
+    }
+
+    .service-title-text {
+        padding-left: 10px;
+    }
+
+    .service-block-card {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width:1125px) {
+   .service-block-link-card {
+
+   }
+
+   .service-block-card {
+     justify-content: space-evenly;
+    }
+
 }
 
