@@ -934,7 +934,9 @@ a {
         height: 100vh;
      }
      
-    
+    .footer {
+        padding-block: 46px;
+    }
 
  
  }
