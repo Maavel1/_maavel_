@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Максим - Frontend Developer">
     <meta name="description" content="Мое портфолио и что я умею.">
-    <link rel="shortcut icon" href="src/img/logo-icon.jpg.png" type="image/x-icon">
+    <link rel="shortcut icon" href="src/img/logo-icon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/main.css " as="style" />
@@ -24,7 +25,7 @@
                 <a href="#" class="logo">
                     <img class="header-logo" src="src/img/Logo.png"  width="170" height="40" alt="FirstTwenli">
                 </a>
-                <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn>
+                <!-- <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn>
                     <span class="line line-1"></span>
                     <span class="line line-2"></span>
     
@@ -37,7 +38,7 @@
 
                         </ul>
                     </nav>
-                </button>
+                </button> -->
             </div>
         </div>
     </header>
@@ -197,8 +198,8 @@
                          </ul>
                          <span class="service-card-keys">01</span>
                          </div></a>
-                        <a class="service-block-link-card" href="#"><div class="product-card">
-                            <div class="service-img-card-block">
+                        <a class="service-block-link-card " href="#"><div class="product-card">
+                            <div class="service-img-card-block ">
                                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                                 width="172" height="133" viewBox="0 0 3654.000000 2844.000000"
                                 preserveAspectRatio="xMidYMid meet">
@@ -318,7 +319,7 @@
                          <span class="service-card-keys">02</span>
                          </div></a>
 
-                        <a class="service-block-link-card" href="#">
+                        <a class="service-block-link-card tre" href="#">
                             <div class="product-card">
                             <div class="service-img-card-block">
                                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -447,7 +448,53 @@
     </section>
     <section class="section-portfolio">
         <div class="container">
-            <div class="portfolio-decription">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <a href="#"><img class="portfilio-img"  src="src/img/Portfolio_1.jpg" alt="Portfolio"></a></div>
+                  
+                  <div class="swiper-slide"><a href="#"> <img class="portfilio-img" src="src/img/Portfolio_1.jpg" alt="Portfolio"></a></div>
+                  <div class="swiper-slide"><a href="#"> <img class="portfilio-img" src="src/img/Portfolio_1.jpg" alt="Portfolio"></a></div>
+                  ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <div class="portfolio-decription">
                 <p class="portfolia-pre-title"><a name="portfolio">Мой работы</a></p>
                 <p class="portfolia-title">Портфолио</p>
             </div>
@@ -470,7 +517,7 @@
                     <p class="portfolio-title">SWAPSTER</p>
                     <div class="some">
                          <a href="#"><img class="portfilio-img" src="src/img/Portfolio_1.jpg" alt="Portfolio"></a>
-                      </div>
+                      </div> -->
                   </div>
                     
                    
@@ -507,6 +554,8 @@
           </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
   <!-- Google tag (gtag.js) -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJ03NZZJ8E"></script>
