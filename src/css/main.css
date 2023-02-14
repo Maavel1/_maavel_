@@ -115,7 +115,7 @@ a {
     visibility: hidden;
     flex-wrap: wrap;
     touch-action: 100%;
-    top: 0;
+    top: 110px;
     right: -370px;
     max-width: 285px;
     width: 100%;
@@ -919,6 +919,12 @@ a {
      }
      .header-logo {
         height: 53px;
+     }
+
+     .navbar {
+        width: 100% !important;
+        top: 80px;
+        height: 100vh;
      }
      
     
