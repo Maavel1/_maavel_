@@ -21,24 +21,36 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="header-menu">
+            <div class="header-body">
                 <a href="#" class="logo">
-                    <img class="header-logo" src="src/img/Logo.png"  width="170" height="40" alt="FirstTwenli">
+                    <img class="header-logo" src="src/img/logo-icon.png"  width="170" height="40" alt="FirstTwenli">
                 </a>
-                <!-- <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn>
-                    <span class="line line-1"></span>
-                    <span class="line line-2"></span>
-    
-                    <nav class="navbar" data-navbar>
-                        <ul class="navbar-list">
-                            <li class="navbar-li"><a href="#main" class="navbar-link">Главная</a></li>
-                            <li class="navbar-li"><a href="#portfolio" class="navbar-link">Портфолио</a></li> 
-                            <li class="navbar-li"><a href="#contact" class="navbar-link">Контакты</a></li>
-                            <li class="navbar-li"><a href="#services" class="navbar-link">Услуги</a></li>
-
-                        </ul>
-                    </nav>
-                </button> -->
+                <div class="header-burger">
+                    <span></span>
+                </div>
+                <div class="header-menu">
+                    <ul class="header-list">
+                        <li>
+                            <a href="#" class="header-link">Главная</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="header-link">Портфолио</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="header-link">Контакты</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="header-link">Услуги</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="header-link">Навыки</a>
+                        </li>
+                        <li>
+                            <a href="#vopros" class="header-link">Ответы на вопросы</a>
+                        </li>
+                    </ul>
+                </div>
+                
             </div>
         </div>
     </header>
@@ -49,9 +61,9 @@
                     <img class="main-img" src="src/img/me.png" alt="">
                 </div>
                 <div class="main-name">
-                    <h1 class="main-name-title">Maks <br> Bereza</h1>
+                    <h1 class="main-name-title">First<br>Twenli</h1>
                     <p class="main-pre-title">КРЕАТИВНЫЙ ВЕБ-РАЗРАБОТЧИК</p>
-                    <p class="main-description">Привет, меня зовут Береза Максим, и я креативный веб-разработчик, который мечтает сделать мир лучше, создавая увлекательные продукты</p>
+                    <p class="main-description">Привет,я креативный веб-разработчик, который мечтает сделать мир лучше, создавая увлекательные продукты</p>
                 </div>
             </div>
         </div>
@@ -395,6 +407,8 @@
                            <span class="service-card-keys">03</span>
                            </div></a>
                     </div>
+
+                    
                 </div>
             </section>
         </div>
@@ -402,7 +416,7 @@
     <section class="section-skils">
         <div class="container">
             <div class="skils-title">
-                <h3 class="skils-pre-title"> Я создаю будущее</h3>
+                <h3 class="skils-pre-title"><a name="skills"></a></h3>
                 <h2 class="skils-title">Я разрабатываю и создаю цифровое будущее.</h2>
             </div>
             <div class="skills-wrapper">
@@ -447,18 +461,21 @@
         </div>
     </section>
     <section class="section-portfolio">
+        <a name="portfolio"></a>
         <div class="container">
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                   <!-- Slides -->
+                  
                   <div class="swiper-slide">
-                    <a href="#"><img class="portfilio-img"  src="src/img/Portfolio_1.jpg" alt="Portfolio"></a></div>
+                    <a href="portfolio"><img class="portfilio-img"  src="src/img/Portfolio_1.jpg" alt="Portfolio"></a></div>
                   
                   <div class="swiper-slide"><a href="#"> <img class="portfilio-img" src="src/img/Portfolio_1.jpg" alt="Portfolio"></a></div>
                   <div class="swiper-slide"><a href="#"> <img class="portfilio-img" src="src/img/Portfolio_1.jpg" alt="Portfolio"></a></div>
                   ...
                 </div>
+                <a name="vopros"></a>
                 <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>
               
@@ -468,60 +485,8 @@
               
               </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- <div class="portfolio-decription">
-                <p class="portfolia-pre-title"><a name="portfolio">Мой работы</a></p>
-                <p class="portfolia-title">Портфолио</p>
-            </div>
-        </div>
-       
-            <div class="portfolia-block">
-                   <div class="verh">
-                    <p class="portfolio-title">SWAPSTER</p>
-                    <div class="some">
-                         <a href="#"><img class="portfilio-img"  src="src/img/Portfolio_1.jpg" alt="Portfolio"></a>
-                       </div>
-                   </div>
-                   <div class="verh">
-                    <p class="portfolio-title">SWAPSTER</p>
-                    <div class="some">
-                         <a href="#"> <img class="portfilio-img" src="src/img/Portfolio_1.jpg" alt="Portfolio"></a>
-                       </div>
-                   </div>
-                  <div class="verh">
-                    <p class="portfolio-title">SWAPSTER</p>
-                    <div class="some">
-                         <a href="#"><img class="portfilio-img" src="src/img/Portfolio_1.jpg" alt="Portfolio"></a>
-                      </div> -->
                   </div>
                     
-                   
-            </div>
        
     </section>
     <section class="section-reviews">
@@ -554,7 +519,8 @@
           </div>
         </div>
     </footer>
-
+    <script src="src/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
   <!-- Google tag (gtag.js) -->
@@ -566,6 +532,5 @@
 
             gtag('config', 'G-GJ03NZZJ8E');
             </script>
-                <script src="src/js/main.js"></script>
 </body>
 </html>

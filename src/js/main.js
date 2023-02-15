@@ -1,22 +1,25 @@
-'use strict';
 
-const addEvenOneElements = function (elements, eventType, callback) {
-    for (let i = 0 , len = elements.length; i < len; i++ ) {
-        elements[i].addEventListener(eventType, callback);
-    }
+
+
+let header__burger = document.querySelector('.header-burger');
+let header_menu = document.querySelector('.header-menu');
+let back = document.querySelector('body');
+let header__list = document.querySelector('.header-list');
+
+header__burger.onclick = function(){
+    header__burger.classList.toggle('active');
+    header_menu.classList.toggle('active');
+    back.classList.toggle('lock');
 }
 
-const navToggLers = document.querySelectorAll('[data-nav-toggler]');
-
-const navToggleBtn = document.querySelector('[data-nav-toggle-btn]');
-
-const navBar = document.querySelector('[data-navbar]');
-
-const toggleNavbar = function() {
-    navBar.classList.toggle('active');
-    navToggleBtn.classList.toggle('active');
-    document.body.classList.toggle('nav-acitve');
+header__list.onclick = function () {
+    header__list.classList.remove('active');
+    back.classList.toggle('lock');
 }
+
+
+
+
 
 addEvenOneElements(navToggLers,'click', toggleNavbar);
 
