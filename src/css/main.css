@@ -108,7 +108,7 @@ a {
     top: 106px;
     right: -100%;
     width: 100%;
-    max-width: 325px;
+    max-width: 356px;
     height: 100%;
     background-color: #ffffff;
     transition: all 1s ease;
@@ -1087,6 +1087,10 @@ a {
 
      .main-description {
         font-size: 10px;
+     }
+
+     .header-menu {
+        top: 69px;
      }
 
      .header-logo {
