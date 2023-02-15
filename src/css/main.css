@@ -968,7 +968,9 @@ a {
      .header {
         padding-block: 9px;
      }
-     .header-logo {
+
+     .header-logo {            
+        width: 58px;
         height: 53px;
      }
 
@@ -986,7 +988,7 @@ a {
         top: 80px;
         max-width: 660px;
     }
-    
+
     body.lock{
         overflow: hidden;
     }
@@ -1088,6 +1090,12 @@ a {
 
      .main-description {
         font-size: 10px;
+     }
+
+     .header-logo {
+        width: 59px;
+        height: 42px;
+}
      }
 
  }
