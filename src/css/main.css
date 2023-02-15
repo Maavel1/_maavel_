@@ -989,9 +989,6 @@ a {
         max-width: 660px;
     }
 
-    body.lock{
-        overflow: hidden;
-    }
 
  
  }
@@ -1098,7 +1095,7 @@ a {
 }
      }
 
- }
+
 
 
 
