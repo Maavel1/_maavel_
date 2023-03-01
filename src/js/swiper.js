@@ -24,3 +24,14 @@ const swiper = new Swiper('.swiper', {
       
     },
   });
+
+
+
+
+function Pritvet (Name, pers) {
+  return  pers  + Name;
+}
+
+Pritvet('Maks', 'rot');
+
+
