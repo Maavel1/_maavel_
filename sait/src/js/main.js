@@ -58,19 +58,6 @@ document.querySelectorAll('.accordion').forEach((el) => {
     });
 });
 
-window.onload = function () {
-    let preloader = document.getElementById('preloader');
-    preloader.style.display = 'none';
-};
-
-$(window).on('load', function () {
-    $('#load').delay(2000).fadeOut('slow');
-    $("html,body").addClass("hidden");
-      setTimeout(function () { 
-      $("html,body").removeClass("hidden");   
-      }, 2000);  
-  });
-
 
 
 
