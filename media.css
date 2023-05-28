@@ -187,8 +187,6 @@
         padding: 15px;
      }
 
-     
-
      .tabs>label {
         font-size: 13px;
      }
@@ -203,6 +201,10 @@
     .tabs>label:hover {
         padding-left: 9px;
         padding-right: 9px;
+     }
+
+     .tabs>label {
+        font-size: 11px;
      }
 
    
