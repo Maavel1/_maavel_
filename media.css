@@ -183,6 +183,10 @@
     .txt {
         font-size: 10px;
     }
+
+    .sidenav {
+        transform: scale(1);
+    }
 }
 
 @media (max-width:490px) { 
@@ -194,14 +198,10 @@
      .tabs>label {
         font-size: 13px;
      }
+    
 }
 
 @media (max-width:450px) { 
-
-    .sidenav {
-        transform: scale(0.8);
-    }
-    
     .tabs>label:hover {
         padding-left: 9px;
         padding-right: 9px;
