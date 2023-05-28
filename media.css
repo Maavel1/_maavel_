@@ -179,6 +179,10 @@
     .auth img {
         height: 110px;
     }
+    
+    .txt {
+        font-size: 10;
+    }
 }
 
 @media (max-width:490px) { 
