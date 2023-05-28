@@ -210,9 +210,116 @@
      .tabs>label {
         font-size: 11px;
      }
-
+    }
    
+/* .resorts */ 
+
+@media (max-width:1490px) {
+    .resorts {
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 150px 150px;
+        grid-gap: 328px 150px;
+        padding-left: 252px;
+    }
 }
+
+@media (max-width:1288px) {
+    .resorts {
+        padding-left: 128px;
+    }
+}
+
+@media (max-width:1174px) {
+    .resorts {
+        padding-left: 79px;
+    }
+}
+
+@media (max-width:1120px) {
+    .resorts {
+       
+    }
+}
+
+@media (max-width:1164px) {
+    .resorts {
+       
+        margin-left: 122px;
+    }
+}
+
+@media (max-width:952px) {
+    .resorts {
+       
+        margin-left: 47px;
+    }
+}
+
+@media (max-width:866px) {
+    .resorts {
+       
+        margin-left: 11px;
+    }
+}
+
+@media (max-width:810px) {
+    .resorts {
+       
+        margin-left: -31px;
+    }
+}
+
+@media (max-width:762px) {
+    .resorts {
+        display: block;
+        margin-left: 146px;
+    }
+}
+
+@media (max-width:684px) {
+    .resorts {
+
+        margin-left: 93px;
+    }
+}
+
+@media (max-width:606px) {
+    .resorts {
+        margin-left: 35px;
+    }
+}
+
+@media (max-width:526px) {
+    .resorts {
+        margin-left: 3px;
+    }
+}
+
+@media (max-width:460px) {
+    .resorts {
+        margin-left: -28px;
+    }
+}
+
+@media (max-width:416px) {
+    .resorts {
+        margin-left: -56px;
+    }
+}
+
+@media (max-width:390px) {
+    .resorts {
+        margin-left: -63px;
+    }
+}
+
+@media (max-width:370px) {
+    .resorts {
+        margin-left: -74px;
+    }
+}
+
+
 
 
 
