@@ -235,16 +235,10 @@
     }
 }
 
-@media (max-width:1120px) {
-    .resorts {
-       
-    }
-}
 
 @media (max-width:1164px) {
-    .resorts {
-       
-        margin-left: 122px;
+    .resorts { 
+        margin-left: 255px;
     }
 }
 
